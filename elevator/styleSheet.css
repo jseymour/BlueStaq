@@ -1,0 +1,49 @@
+.buttons {
+    background: silver;
+    float: left;
+    padding: 15px;
+}
+.buttons .active {
+    background-color: blue;
+}
+
+.buttons .btn {
+    float: left;
+    width: 45%;
+    display: block;
+    height: 20%;
+    background-color: orange;
+    margin: 2px;
+    border: 1px solid orange;
+    padding: 3px;
+    border-radius: 20px;
+}
+.buttons .active {
+    float: left;
+    width: 48%;
+    display: block;
+    height: 20%;
+    background-color: blue;
+    margin: 2px;
+    border: 1px solid orange;
+    padding: 3px;
+}
+
+.elevator {
+    border: 1px solid red;
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+    height: 260px;
+    position: Relative;
+}
+.elevator #car {
+    width: 20px;
+    background: blue;
+    bottom: 0;
+    position: absolute;
+    color:#FFF;
+    text-align:center;
+    margin:auto;
+    padding:10px 0px 10px 0px
+}
